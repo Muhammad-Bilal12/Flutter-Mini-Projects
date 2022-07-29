@@ -17,6 +17,7 @@ class _ChatScreenState extends State<ChatScreen> {
     setState(() {
       message.insert(0, value);
     });
+    _textController.clear();
   }
 
   final String name = "bilal";
